@@ -29,5 +29,6 @@ pip install -U "langchain[google-genai]" langgraph
 ├─ main.py              # 実行スクリプト
 ├─ calc_state.py        # Stateの定義
 ├─ tools.py             # add / multiply などの計算ツール
-└─ graph.py            # LangGraph構築
+├─ show_graph.py        # Ascii ArtでGraphの可視化
+└─ graph.py             # LangGraph構築
 ```
