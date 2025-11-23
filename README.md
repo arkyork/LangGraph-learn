@@ -21,7 +21,7 @@ LangGraph は、LLMを利用したアプリケーションを
 無料で使えるので、今回はGemini APIを選定。
 
 ```bash
-pip install -U "langchain[google-genai]" langgraph
+pip install -U "langchain[google-genai]" langgraph grandalf
 ```
 
 ### ディレクトリの構成
@@ -32,3 +32,4 @@ pip install -U "langchain[google-genai]" langgraph
 ├─ show_graph.py        # Ascii ArtでGraphの可視化
 └─ graph.py             # LangGraph構築
 ```
+
